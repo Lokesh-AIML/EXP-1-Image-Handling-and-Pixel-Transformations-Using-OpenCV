@@ -39,12 +39,19 @@ img_gray = cv2.imread(r'C:\Users\waran\Eagle_in_Flight.jpg', 0)
 print(img_gray)
 ```
 [[144 145 146 ... 101 103 102]
+
  [146 147 145 ...  99  98  99]
+ 
  [148 145 144 ...  99  94  96]
+ 
  ...
+ 
  [121 124 122 ... 127 130 136]
+ 
  [127 133 136 ... 130 127 119]
+ 
  [127 132 136 ... 117 116 111]]
+ 
 2. Print the image width, height & Channel.
 ```
 height, width = img_gray.shape
